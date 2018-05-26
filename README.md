@@ -3,12 +3,16 @@ Simple compiler of imperative language
 
 ## COMPILATION
 To compile all files
+````
 $make
+````
 
 ## RUN
 Sample usage
+````
 $./compiler < input.imp > output.mr;
 $./interpreter output.mr
+````
 
 ## NEEDED TOOLS
 bison (GNU Bison) 3.0.4
